@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>e Day — 21 February</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '\\(', right: '\\)', display: false}]});"></script>
 </head>
 <body>
 
@@ -26,7 +30,7 @@
     <span class="e-large">e</span>
     <h1>An International Day for Euler's Number</h1>
     <p class="subtitle">
-      A proposal to designate 21 February as a worldwide celebration of the mathematical constant <em>e</em>, 
+      A proposal to designate 21st February as a worldwide celebration of the mathematical constant \(e\), 
       timed to its tercentenary in 2027.
     </p>
     <div class="date-badge">21 · II · 2027</div>
@@ -36,87 +40,125 @@
 <main>
   <div class="content">
 
-    <h2>Why <em>e</em> Deserves Its Day</h2>
+    <h2>Why \(e\) Deserves Its Day</h2>
 
     <p>
-      Over the past three centuries, Euler's number <em>e</em> ≈ 2.71828 has emerged as one of the most important 
-      constants in modern mathematics, with an impact that rivals that of π. It is the base of the natural 
-      logarithm, the unique number for which the exponential function equals its own derivative, and a constant 
-      that appears throughout the mathematical sciences and engineering — in compound interest and population growth, 
-      probability theory and statistical mechanics, complex analysis, and the solutions of differential equations 
-      governing diffusion, catalysis, wave propagation, and quantum mechanics.
+      Over the past three centuries, Euler's number \(e \approx 2.71828\ldots\) has emerged as one of the most 
+      important constants in modern mathematics, with an impact that arguably equals that of \(\pi\). As the base 
+      of the exponential function that equals its own derivative and of the natural logarithm, it appears throughout 
+      the mathematical sciences and engineering: in finance and population growth, probability theory and 
+      statistical mechanics, complex analysis, artificial intelligence, and the solutions of differential equations 
+      governing diffusion, catalysis, wave theory, and quantum mechanics.
     </p>
 
     <p>
-      While the International Day of Mathematics on 14 March (Pi Day) has successfully brought π into the 
-      public imagination, no comparable formal recognition exists for <em>e</em>. Informal celebrations on 
-      7 February (from the American date format 2/7) or 27 January (from the European 27/1) have arisen in 
-      some educational settings, but these are based solely on the decimal approximation and lack any 
-      institutional endorsement.
+      While Pi Day, celebrated on 14th March as the International Day of Mathematics, has successfully brought 
+      \(\pi\) into our cultural imagination, no comparable formal recognition exists for \(e\). Informal celebrations 
+      on 7th February (from the American date format 2/7) or 27th January (from the European 27/1) have arisen 
+      in educational settings, but these are based solely on the decimal approximation and lack any institutional 
+      endorsement from a mathematical society, the IMU, or UNESCO.
     </p>
 
-    <h2>A Century of Near-Misses</h2>
+    <h2>A Century of Scattered Encounters</h2>
 
     <p>
-      The number <em>e</em> made its mark more than a century before receiving its formal designation. It 
-      appeared unnoticed in 1618 in an appendix to John Napier's work on logarithms. In 1683, Jakob Bernoulli 
-      encountered it as the limiting value of (1 + 1/<em>n</em>)<sup><em>n</em></sup> in his study of compound 
-      interest, but never isolated it as a named constant. In 1690, Gottfried Leibniz used the letter <em>b</em> 
-      for the number in correspondence with Christiaan Huygens. Roger Cotes, the editor of the second edition 
-      of Newton's <em>Principia</em>, rediscovered the same number in 1714 as a universal ratio connecting 
-      exponential and trigonometric functions — but his early death in 1716 left the insight undeveloped.
+      The number \(e\) slipped unnoticed into Napier's work on logarithms in 1618, then appeared in 1683 
+      in Bernoulli's work on compound growth as the limit of the growth factor:
+    </p>
+
+    $$ \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^n $$
+
+    <p>
+      Leibniz and then Cotes used calculus-based frameworks to establish a link between the infinite reciprocal 
+      factorial series and the natural base of logarithms, computing it to several decimal places.
     </p>
 
     <p>
-      It took a twenty-one-year-old <strong>Leonhard Euler</strong> to finally unify these scattered encounters 
-      into a single mathematical object. In late 1727, in a manuscript on the explosive forces in cannons, 
-      he wrote: <em>"For the number whose logarithm is unity, let e be written."</em> This was the first 
-      recorded use of the letter <em>e</em> for the constant — the moment when the number became <em>e</em>.
+      It was Euler who finally unified a century of these scattered efforts into a cohesive mathematical object. 
+      In his 1727 unpublished manuscript on the firing of cannons, the then 21-year-old Euler wrote: 
+      <em>"For the number whose logarithm is unity, let \(e\) be written."</em> This was the first recorded use 
+      of the letter \(e\) to denote the number. Over the next few decades, Euler gave \(e\) its own identity: 
+      he proved its irrationality, derived its infinite series:
     </p>
 
-    <h2>Why 21 February</h2>
+    $$ e = \sum_{n=0}^{\infty} \frac{1}{n!} = \frac{1}{0!} + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \cdots $$
 
     <p>
-      We propose that the date for <em>e</em> Day be grounded not in the decimal expansion of <em>e</em>, 
-      but in one of its most remarkable mathematical properties: the <strong>continued fraction representation</strong>.
+      computed it to eighteen decimal places, and connected it to the trigonometric functions through the 
+      celebrated formula that bears his name:
     </p>
+
+    $$ e^{i\pi} + 1 = 0 $$
+
+    <h2>Why 21st February</h2>
+
+    <p>
+      The impact of \(e\) stems from its rich arithmetic nature and mathematical properties. For this reason, 
+      the date for \(e\)-Day should be grounded not in the decimal expansion of \(e\) but in one of its most 
+      remarkable properties: its <strong>continued fraction representation</strong>.
+    </p>
+
+    <p>
+      Euler himself showed that \(e\) has the non-terminating continued fraction expansion:
+    </p>
+
+    $$ e = 2 + \cfrac{1}{1 + \cfrac{1}{2 + \cfrac{1}{1 + \cfrac{1}{1 + \cfrac{1}{4 + \cdots}}}}} $$
 
     <div class="cf-display">
       <span class="cf-notation">
-        <em>e</em> = [<span class="cf-highlight">2</span>; <span class="cf-highlight">1</span>, <span class="cf-highlight">2</span>, <span class="cf-highlight">1</span>, 1, 4, 1, 1, 6, 1, 1, 8, …]
+        \(e = [\,\mathbf{2};\; \mathbf{1},\, \mathbf{2},\, 1,\, 1,\, 4,\, 1,\, 1,\, 6,\, 1,\, 1,\, 8,\, \ldots\,]\)
       </span>
-      <span class="cf-label">The first four partial quotients encode 21/2 in European date format</span>
+      <span class="cf-label">The first three coefficients encode 21/2 in European date format</span>
     </div>
 
     <p>
-      Euler demonstrated that the continued fraction expansion of <em>e</em> follows the strikingly regular 
-      pattern [1, 2<em>k</em>, 1] for <em>k</em> = 1, 2, 3, … — a structure that is exceptional among 
-      fundamental constants. By contrast, the continued fraction of π reveals no discernible pattern. This 
-      expansion was central to Euler's proof that <em>e</em> is irrational, and the Padé approximants 
-      arising from it later provided the foundation for Hermite's 1873 proof that <em>e</em> is transcendental.
+      After the first term, the fraction is characterised by the pattern \([1,\, 2k,\, 1]\) for \(k = 1, 2, 3, \ldots\) 
+      The simple yet elegant periodicity of this expansion is exceptional among fundamental constants. The continued 
+      fraction of \(\pi\), by contrast, has no such structure. Euler's pattern was central to his own proof that 
+      \(e\) is irrational and later provided the foundation for Hermite's proof of its transcendence. These 
+      landmark results helped \(e\) become \(e\).
     </p>
 
     <p>
-      The first four partial quotients — <strong>2, 1, 2, 1</strong> — read in the European day/month format 
-      give the date <strong>21/2</strong>, that is, <strong>21 February</strong>. This encoding is philosophically 
-      distinct from Pi Day's approach: where 14 March encodes the decimal digits 3.14, a representation tied 
-      to the accident of base-ten notation, the date 21 February encodes the continued fraction of <em>e</em> — 
-      a representation that is intrinsic to the number itself, independent of any base.
+      The proposed date is based on the first three coefficients \(\mathbf{2, 1, 2}\) — containing the integer 
+      part and the opening of the periodic structure that generates the fraction. Read in the European day/month format, 
+      the coefficients yield the date <strong>21/2</strong>, or <strong>21st February</strong>. The date is the 
+      smallest initial segment of Euler's infinite expansion that forms a complete day-and-month pair.
+    </p>
+
+    <p>
+      This basis is fundamentally distinct from Pi Day. Rather than relying on a base-ten decimal representation 
+      and an American date format, the use of the continued fraction ensures that the date is intrinsic to the 
+      number itself, independent of any base. The European day/month format respects its European origins, 
+      celebrating the contribution of Euler and his predecessors in shaping our understanding of \(e\).
     </p>
 
     <div class="date-feature">
       <div class="day">21</div>
       <div class="month-year">February 2027</div>
-      <div class="label">The Tercentenary of Euler's Introduction of <em>e</em></div>
+      <div class="label">The Tercentenary of Euler's Introduction of \(e\)</div>
     </div>
 
     <h2>The Tercentenary</h2>
 
     <p>
       The year 2027 marks the <strong>three-hundredth anniversary</strong> of Euler's introduction of the 
-      letter <em>e</em> into mathematical notation. We propose that 21 February 2027 serve as the inaugural 
-      celebration — a tercentenary occasion of singular historical significance. Such an anniversary will 
-      not come again.
+      letter \(e\) into mathematical notation — a tercentenary occasion of singular historical significance 
+      that will not come again. We propose that <strong>21st February 2027</strong> serve as the inaugural 
+      celebration of \(e\)-Day.
+    </p>
+
+    <h2>What \(e\)-Day Might Look Like</h2>
+
+    <p>
+      Pi Day owes its success in part to accumulated rituals such as recitations, classroom activities, and the 
+      obvious pun on pie. \(e\)-Day offers comparable possibilities with a distinctive character that honours 
+      its origins, properties, and myriad applications. An Euler Lectureship, hosted in rotation by member 
+      societies and broadcast worldwide, would give the day serious mathematical content. School and university 
+      programmes could connect \(e\) to topics of immediate relevance: compound interest and financial literacy, 
+      exponential growth and public health, and the role of \(e\) in the machine learning systems now reshaping 
+      daily life. The continued fraction itself offers an unusually accessible entry point into deeper number 
+      theory for students at all levels.
     </p>
 
     <div class="cta-box">
@@ -125,7 +167,7 @@
         We are seeking endorsements from mathematicians, scientists, educators, and institutions worldwide. 
         If you would like to add your name as a signatory, please contact us at:
       </p>
-      <p><a href="mailto:eday@example.com" class="email-link">eday@example.com</a></p>
+      <p><a href="mailto:eDay21Feb@gmail.com" class="email-link">eDay21Feb@gmail.com</a></p>
       <p>
         <a href="letter.html">Read the full open letter →</a>
       </p>
@@ -136,7 +178,7 @@
 
 <footer class="site-footer">
   <div class="footer-inner">
-    <p>The <em>e</em> Day Initiative — A proposal to celebrate Euler's number on 21 February</p>
+    <p>The \(e\)-Day Initiative — A proposal to celebrate Euler's number on 21st February</p>
     <p class="footer-tagline">2.71828182845904523536…</p>
   </div>
 </footer>
