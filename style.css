@@ -381,6 +381,19 @@ blockquote cite {
   font-style: italic;
 }
 
+/* Synthesis Boxes — key takeaways for each section */
+.synthesis-box {
+  margin: 1.5rem 0 1.8rem;
+  padding: 1.1rem 1.4rem;
+  background: var(--color-bg-warm);
+  border-left: 3px solid var(--color-euler-blue);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  line-height: 1.65;
+  font-weight: 400;
+}
+
 /* Call to Action */
 .cta-box {
   margin: 2.5rem 0;
@@ -415,13 +428,14 @@ blockquote cite {
   color: var(--color-body);
 }
 
-.letter-body p:first-of-type::first-letter {
+.letter-body p:first-of-type::first-letter,
+.letter-body h2 + p::first-letter {
   font-family: var(--font-display);
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   float: left;
   line-height: 0.85;
-  padding-right: 0.12em;
-  padding-top: 0.08em;
+  padding-right: 0.1em;
+  padding-top: 0.05em;
   color: var(--color-ink);
   font-weight: 700;
 }
