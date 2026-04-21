@@ -384,9 +384,11 @@ blockquote cite {
 /* Synthesis Boxes — key takeaways for each section */
 .synthesis-box {
   margin: 1.5rem 0 1.8rem;
-  padding: 1.1rem 1.4rem;
-  background: var(--color-bg-warm);
-  border-left: 3px solid var(--color-euler-blue);
+  padding: 1.2rem 1.5rem;
+  background: #e8eef3;
+  border-left: 4px solid var(--color-euler-blue);
+  border-radius: 0 4px 4px 0;
+  box-shadow: 0 1px 4px rgba(44, 95, 124, 0.1);
   font-family: var(--font-body);
   font-size: 0.95rem;
   color: var(--color-ink);
