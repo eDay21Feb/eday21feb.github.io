@@ -192,6 +192,14 @@ body::before {
   font-family: var(--font-display);
   font-size: 1.1rem;
   letter-spacing: 0.08em;
+  max-width: 100%;
+}
+
+.hero .date-badge .e-symbol-badge {
+  font-family: 'Neo Euler', Georgia, serif;
+  font-style: italic;
+  font-size: 1.3em;
+  color: var(--color-accent);
 }
 
 /* Page Header (for inner pages) */
