@@ -169,7 +169,7 @@ body::before {
 
 .hero .e-large {
   font-family: 'Neo Euler', Georgia, serif;
-  font-size: clamp(3.5rem, 10vw, 5.5rem);
+  font-size: clamp(2.5rem, 7vw, 3.5rem);
   font-weight: normal;
   color: var(--color-accent);
   display: inline;
@@ -179,14 +179,14 @@ body::before {
 }
 
 .hero-separator {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
   color: rgba(232, 213, 163, 0.4);
   font-weight: 300;
 }
 
 .hero-21feb {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-size: clamp(2.5rem, 7vw, 3.5rem);
   font-weight: 400;
   font-style: normal;
   color: var(--color-accent);
