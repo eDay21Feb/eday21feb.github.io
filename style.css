@@ -92,6 +92,13 @@ body::before {
   font-style: italic;
 }
 
+.nav-brand .e-symbol .nav-day {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-style: normal;
+  color: var(--color-accent-light);
+}
+
 .nav-links {
   display: flex;
   gap: 0;
@@ -178,11 +185,11 @@ body::before {
 }
 
 .hero-21feb {
-  font-family: 'Neo Euler', Georgia, serif;
+  font-family: var(--font-display);
   font-size: clamp(2rem, 6vw, 3.2rem);
-  font-weight: normal;
-  font-style: italic;
-  color: #e8e4f0;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-accent);
   letter-spacing: 0.02em;
 }
 
